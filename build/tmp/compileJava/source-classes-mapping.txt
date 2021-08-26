@@ -1,0 +1,8 @@
+commands/Help.java
+ commands.Help
+JavaClub.java
+ JavaClub
+commands/Meme.java
+ commands.Meme
+commands/Info.java
+ commands.Info
