@@ -25,7 +25,6 @@ public class Help extends ListenerAdapter {
                 .addField("Commands", "Here are the commands!\n\n" +
                         "- **!help** => Shows this menu.\n" +
                         "- **!schedule** => Shows the schedule for our club.\n" +
-                        "- **!meme** => Sends some random meme. (Appropriate)\n" +
                         "- **!info** => Sends information about this bot.\n" +
                         "- **!src** => Sends a github link for the source code.\n" +
                         "", true)
