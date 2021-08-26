@@ -12,7 +12,7 @@ public class JavaClub {
     public static void main(String[] args) {
 
         JDABuilder jdaBuilder = JDABuilder.createDefault(System.getenv().get("TOKEN")).setActivity(Activity.playing("Helping with the Java Club"));
-        jdaBuilder.addEventListeners(new Help(), new Meme(), new Info());
+        jdaBuilder.addEventListeners(new Help(), new Info());
         JDA jda = null;
         try {
             jdaBuilder.build();
