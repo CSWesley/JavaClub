@@ -1,2 +1,2 @@
 # JavaClub
-For Java club
+For Java club Discord server

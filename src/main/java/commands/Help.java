@@ -6,7 +6,6 @@ import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
 import java.awt.*;
 import java.text.SimpleDateFormat;
-import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 public class Help extends ListenerAdapter {
@@ -16,7 +15,6 @@ public class Help extends ListenerAdapter {
 
     @Override
     public void onMessageReceived(MessageReceivedEvent e) {
-        // Add schedule command
 
         EmbedBuilder eb = new EmbedBuilder()
                 .setTitle("Help • JavaClub")
@@ -25,12 +23,10 @@ public class Help extends ListenerAdapter {
                 .addField("Commands", "Here are the commands!\n\n" +
                         "- **!help** => Shows this menu.\n" +
                         "- **!schedule** => Shows the schedule for our club.\n" +
-<<<<<<< HEAD
-=======
-                        "- **!meme** => Sends some random meme. (Appropriate)\n" +
->>>>>>> Initial Commit.
                         "- **!info** => Sends information about this bot.\n" +
-                        "- **!src** => Sends a github link for the source code.\n" +
+                        "- **!src** => Sends a github link for the source code so you can look at it.\n" +
+                        "- **!java** => Sends resources that will help learn Java.\n" +
+                        "- **!alias** => Sends all command aliases.\n" +
                         "", true)
                 .setFooter(e.getAuthor().getName() + "   ª•ª   " + formatter.format(date));
 

@@ -1,8 +1,10 @@
-commands/Help.java
- commands.Help
-JavaClub.java
- JavaClub
-commands/Meme.java
- commands.Meme
 commands/Info.java
  commands.Info
+commands/Help.java
+ commands.Help
+commands/Src.java
+ commands.Src
+JavaClub.java
+ JavaClub
+commands/Schedule.java
+ commands.Schedule
