@@ -31,7 +31,7 @@ public class Help extends ListenerAdapter {
                 .setFooter(e.getAuthor().getName() + "   ª•ª   " + formatter.format(date));
 
 
-        if (e.getMessage().getContentRaw().equalsIgnoreCase("!help")) {
+        if (e.getMessage().getContentRaw().equalsIgnoreCase("!help") || e.getMessage().getContentRaw().equalsIgnoreCase("!h")) {
             e.getChannel().sendMessage(eb.build()).queue();
         }
     }

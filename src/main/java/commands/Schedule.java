@@ -33,7 +33,7 @@ public class Schedule extends ListenerAdapter {
                 .addField("Unless...", "When the club is over and if you want to learn more about Java, contact the club president/leader, `Wesley_#8643`!", false)
                 .setFooter(e.getAuthor().getName() + "   ª•ª   " + formatter.format(date));
 
-        if (e.getMessage().getContentRaw().equalsIgnoreCase("!schedule")) {
+        if (e.getMessage().getContentRaw().equalsIgnoreCase("!schedule") || e.getMessage().getContentRaw().equalsIgnoreCase("!sched")) {
             e.getChannel().sendMessage(eb.build()).queue();
         }
     }

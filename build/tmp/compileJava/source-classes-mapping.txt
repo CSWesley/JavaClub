@@ -1,10 +1,14 @@
-commands/Info.java
- commands.Info
 commands/Help.java
  commands.Help
 commands/Src.java
  commands.Src
+commands/Aliases.java
+ commands.Aliases
 JavaClub.java
  JavaClub
+commands/Resources.java
+ commands.Resources
+commands/Info.java
+ commands.Info
 commands/Schedule.java
  commands.Schedule
