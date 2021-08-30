@@ -25,7 +25,7 @@ public class Schedule extends ListenerAdapter {
                         "Monday, November 29th at noon\n" +
                         "(Skipping December)\n" +
                         "(Skipping January 10th)\n" +
-                        "Monday, January 17th at noon\n" +
+                        "Monday, January 24th at noon\n" +
                         "Monday, February 7th at noon\n" +
                         "Monday, March 7th at noon\n" +
                         "Monday, April 4th at noon\n" +
