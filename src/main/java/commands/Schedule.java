@@ -17,7 +17,7 @@ public class Schedule extends ListenerAdapter {
     public void onMessageReceived(MessageReceivedEvent e) {
 
         EmbedBuilder eb = new EmbedBuilder()
-                .setTitle("Schedule • JavaClub")
+                .setTitle("Schedules • JavaClub")
                 .setAuthor(e.getAuthor().getName())
                 .setColor(Color.RED)
                 .addField("Schedule", "Monday, September 27th at noon\n" +
