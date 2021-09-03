@@ -9,7 +9,7 @@ public class WelcomeMessage extends ListenerAdapter {
 
     @Override
     public void onGuildMemberJoin(GuildMemberJoinEvent e) {
-        // this doesn't work fix this
+        // do this sometime
         
     }
 }
